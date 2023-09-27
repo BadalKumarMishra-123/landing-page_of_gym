@@ -1,1 +1,0 @@
-# landing-page_of_gym

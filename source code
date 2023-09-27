@@ -1,0 +1,91 @@
+# landing-page_of_gym
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Landing Page</title>
+    <link rel="stylesheet" href="badal.css">
+</head>
+<style>
+    body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url(homegym9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+background-color: #333;
+color: #fff;
+padding: 20px;
+
+}
+.header-effect:hover{
+    color: red;
+}
+nav  li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display:inline;
+    margin-right:10px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+section{
+    padding: 50px;
+    text-align: center;
+
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+<body>
+    <header>
+     <h1>   Welcome to Nexus Gym</h1>
+     <nav>
+        <ul> 
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Services">Services</a></li>
+        </ul>
+     </nav>
+    </header>
+    <section id="About">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque laborum, doloribus et numquam rem nihil impedit? Ipsa similique a doloribus, sequi hic vitae tempore dignissimos corrupti deleniti dolorum, quisquam quod quia? Nihil, dignissimos.</p>
+    </section>
+    <section id="Services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Personal Training </li>
+        <li>Group Classes</li>
+        <li>Cardio Equipments </li>
+        <li>Weightlifting</li>
+    </ul>
+    </section>
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <p>Phone:123-456-7890</p>
+        <p>Email:info@gym.com</p>
+
+    </section>
+    <footer>
+        <p>&copy:2023 XYZ Gym. All rights reserved. </p>
+
+        </footer>
+
+</body>
+</html>
